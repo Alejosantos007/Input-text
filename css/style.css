@@ -22,3 +22,10 @@
   background-color: greenyellow;
 
 }
+.mensaje {
+  color: black;
+  background-color: greenyellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 5px double black;
+  border-radius: 5%;
+}
