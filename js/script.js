@@ -3,10 +3,11 @@ let username = document.getElementById('username');
 let password = document.getElementById('password');
 let confirmar = document.getElementById('confirmar');
 let textote = document.getElementById('textote');
-textote.classList.add('mensaje');
+
     function cosa () {
     if (user.value !== "" && password.value !== "") {
         textote.innerText = 'CUENTA CREADA';
+        console.log(user);
     } else {
         textote.innerText = 'FALTA METER INFO';
     }
